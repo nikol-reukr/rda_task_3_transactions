@@ -1,6 +1,6 @@
--- DROP DATABASE IF EXISTS ShopDB;
--- CREATE DATABASE ShopDB;
--- SOURCE create-database.sql;
+DROP DATABASE IF EXISTS ShopDB;
+CREATE DATABASE ShopDB;
+SOURCE create-database.sql;
 USE ShopDB;
 
 INSERT INTO Orders (CustomerID, Date)
